@@ -1,0 +1,4 @@
+FROM node:alphine
+COPY . /
+WORKDIR /
+CMD node main.js
